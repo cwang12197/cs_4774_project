@@ -1,0 +1,12 @@
+model,mean_cv_mse,test_mse,test_mae,test_r2,best_params
+LinearRegression,,1.39e-30,8.63e-16,1.0,"{'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}"
+LinearRegression,,6.08e-29,4.18e-15,1.0,"{'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}"
+LinearRegression,,6.08e-29,4.18e-15,1.0,"{'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}"
+RandomForest_1,1.75e-05,1.38e-06,0.000429249,0.999944728,"{'n_estimators': 200, 'min_samples_split': 6, 'min_samples_leaf': 3, 'max_depth': 15}"
+RandomForest_1,1.74e-05,1.5e-06,0.000439043,0.999940183,"{'n_estimators': 125, 'min_samples_split': 3, 'min_samples_leaf': 3, 'max_depth': 15}"
+RandomForest_1,1.7e-05,2.25e-06,0.000471178,0.999909866,"{'n_estimators': 75, 'min_samples_split': 6, 'min_samples_leaf': 3, 'max_depth': 15}"
+XGBoost,2.44e-05,7.39e-06,0.001510761,0.999704531,"{'subsample': 1.0, 'reg_lambda': 2, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 1.0}"
+XGBoost,0.000192603,5.81e-05,0.002561625,0.997675694,"{'subsample': 1.0, 'reg_lambda': 1.5, 'reg_alpha': 1, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}"
+RandomForest_1,1.6965242100351144e-05,2.253306930503471e-06,0.00047117828335514777,0.9999098663061008,"{'n_estimators': 75, 'min_samples_split': 3, 'min_samples_leaf': 3, 'max_depth': 15}"
+LinearRegression,,6.077710916782296e-29,4.181057832314666e-15,1.0,"{'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}"
+XGBoost,2.371428524024096e-05,6.786110286167029e-06,0.001440310917276782,0.9997285513220506,"{'subsample': 1.0, 'reg_lambda': 2, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 1.0}"
